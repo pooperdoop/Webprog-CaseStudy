@@ -13,12 +13,13 @@ nav{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-    max-width: 100%;
+    width: 100vw;
+
 }
 
 .logo img{
-    width: 200px;
+    width: 10vw;
+    min-width: 100px;
 }
 
 
@@ -29,7 +30,7 @@ display: flex;
 
 }
 .Links{
-    margin-right: 35%;
+    margin-right: 35vw;
 }
 .Links li{
     list-style-type: none;
@@ -78,6 +79,7 @@ span{
     justify-content: center;
     align-items: center;
     position: relative;
+    min-height: 300px;
 }
 
 #headerfiller{
@@ -87,7 +89,7 @@ span{
      background-size: cover;
      filter: blur(10px);
      position: absolute;
-
+     min-height: 300px;
 }
 #header img{
     width: 750px;
@@ -95,10 +97,12 @@ span{
     position: relative;
     top: 5px;
     border-radius: 8px;
+    min-height: 300px;
 }
-@media screen and (max-height: 700px ) {
+@media screen and (max-height: 500px) and (max-width: 500px){
     #header img{
-        width: 40vh;
+        transition: 0.3s;
+        width: 100vw;
         
     }
 }
