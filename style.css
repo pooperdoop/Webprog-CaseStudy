@@ -99,7 +99,7 @@ span{
     border-radius: 8px;
     min-height: 300px;
 }
-@media screen and (max-height: 500px) and (max-width: 500px){
+@media screen and (max-width: 500px){
     #header img{
         transition: 0.3s;
         width: 100vw;
