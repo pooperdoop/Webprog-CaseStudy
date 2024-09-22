@@ -70,3 +70,23 @@ span{
 .profile img{
     width: 3rem;
 }
+
+#headerMain{
+    width: 100%;
+    height: 40vh;
+    background-image: url(bgnheader.png);
+    position: relative;
+    background-size: cover;
+    filter: blur(15px);
+}
+
+#header{
+    width: 100%;
+    height: 40vh;
+    background-image: url(bgnheader.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 32vw;
+    filter: blur(0px);
+}
