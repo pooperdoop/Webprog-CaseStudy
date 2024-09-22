@@ -73,7 +73,7 @@ span{
 
 #headerMain{
     width: 100vw;
-    height: 20vw;
+    height: 35vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,7 +82,7 @@ span{
 
 #headerfiller{
     width: 100vw;
-    height: 20vw;
+    height: 35vh;
      background-image: url(bgnheader.png); 
      background-size: cover;
      filter: blur(10px);
@@ -90,8 +90,15 @@ span{
 
 }
 #header img{
-    width: 40vw;
-    height: 20vw;
+    width: 750px;
+    height: 35vh;
     position: relative;
-    top: 2px;
+    top: 5px;
+    border-radius: 8px;
+}
+@media screen and (max-height: 700px ) {
+    #header img{
+        width: 40vh;
+        
+    }
 }
