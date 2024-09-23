@@ -83,7 +83,7 @@ span{
 #headerfiller{
     width: 100vw;
     height: 35vh;
-     background-image: url(bgnheader.png); 
+     background-image: url(Icons/bgnheader.png); 
      background-size: cover;
      filter: blur(10px);
      position: absolute;
@@ -103,3 +103,31 @@ span{
     }
 }
 
+.pic1 {
+    width: 150px;
+    height: 209px;
+}
+
+.firstsection {
+    width: 150px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.box {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    height: 5px;
+    width: 5px;
+}
+
+.title {
+    font-size: x-large;
+    color: red;
+    display: inline-block;
+    width: 200px;
+}
