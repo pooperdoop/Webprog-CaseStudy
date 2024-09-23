@@ -3,7 +3,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
-    background-color: rgb(207, 207, 207);
+    background-color: white;
     margin: 0px;
     padding: 0px;
 }
@@ -106,3 +106,4 @@ span{
         
     }
 }
+
