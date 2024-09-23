@@ -14,8 +14,8 @@ nav{
     align-items: center;
     justify-content: space-between;
     width: 100vw;
-    min-height: 50px;
-    max-height: 50px;
+    min-height: 60px;
+    max-height: 60px;
     position: sticky;
     top: 0px;
     z-index: 1;
@@ -102,11 +102,62 @@ span{
     border-radius: 8px;
     min-height: 300px;
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 800px){
     #header img{
         transition: 0.3s;
         width: 100vw;
         
     }
+    .search-elements, #welcome, .footerlinks{
+        display: none;
+    }
 }
 
+.foot{
+    height: 175px;
+    background-color: red;  
+}
+
+#footBase{
+    align-items: center;
+    width: 45vw;
+    height: 150px;
+    margin: auto;
+    padding-top: 10px;
+}
+i{
+    padding-top: 10px;
+    width: 40px
+}
+
+.footericons{
+    text-decoration: none;
+    color: white;
+}
+
+.footerlinks{
+}
+
+.footerlinks ul{
+    margin-bottom: 15px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerlinks li{
+    list-style-type: none;
+    
+}
+
+.footerlinks a{
+
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+    padding: auto;
+}
+
+.footertext{
+    font-size: 10px;
+}
