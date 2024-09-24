@@ -9,7 +9,7 @@ body{
 }
 
 nav{
-    background-color: rgb(255, 0, 0);
+    background-color: #860000;
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -60,7 +60,7 @@ display: flex;
 }
 .search-elements button{
     border-radius: 18px;
-    background-color: rgb(255, 0, 0);
+    background-color: #860000;
     border-color: aliceblue;
     border-width: 1px;
     color: aliceblue;
@@ -135,9 +135,6 @@ i{
     color: white;
 }
 
-.footerlinks{
-}
-
 .footerlinks ul{
     margin-bottom: 15px;
     padding: 0;
@@ -166,6 +163,10 @@ i{
     width: 150px;
     height: 209px;
 }
+.bigPic {
+    width: 150px;
+    height: 209px;
+}
 
 .firstsection {
     width: 150px;
@@ -177,6 +178,7 @@ i{
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
+    align-items: center;
 }
 
 .logoBody {
@@ -201,6 +203,14 @@ i{
     width: 200px;
 }
 
-.trending{
-    align-items: center;
+.splitsLast{
+    
 }
+
+.boxLast {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
