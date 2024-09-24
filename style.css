@@ -22,7 +22,7 @@ nav{
 
 }
 
-.logo img{
+.logoHead img{
     width: 10vw;
     min-width: 100px;
 }
@@ -88,7 +88,7 @@ span{
 #headerfiller{
     width: 100vw;
     height: 35vh;
-     background-image: url(bgnheader.png); 
+     background-image: url(Icons/bgnheader.png); 
      background-size: cover;
      filter: blur(10px);
      position: absolute;
@@ -179,8 +179,19 @@ i{
     margin-right: auto;
 }
 
-.logo {
-    size: 10px;
+.logoBody {
+    display: flex;
+    align-items: center;
+}
+
+.logoBody img {
+    width: 30px;
+}
+
+.sectionTitle{
+    color: red;
+    font-size: 1.5rem;
+    margin-left: 10px;
 }
 
 .title {
