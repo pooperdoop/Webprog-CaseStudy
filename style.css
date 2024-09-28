@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Times New Roman', Times, serif;
 }
 body{
     background-color: white;
@@ -25,7 +25,11 @@ nav{
 
 .logoHead img{
     width: 10vw;
-    min-width: 100px;
+    min-width: 10px;
+}
+
+.mainlogo2{
+    display: none;
 }
 
 
@@ -306,8 +310,22 @@ i{
         
     }
 
-    .search-elements, #welcome, .footerlinks, .fourthsection, #headerfiller{
+    .search-elements, #welcome, .footerlinks, .fourthsection{
         display: none;
+    }
+
+    .mainlogo2{
+        display: block;
+        width: 100px;
+        
+    }
+    .mainlogo1{
+        display: none;
+    }
+    .profile img{
+        margin: 0;
+        padding: 0;
+        text-align: right;
     }
 
 }
