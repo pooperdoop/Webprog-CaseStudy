@@ -154,6 +154,7 @@ i{
 .pic1 {
     width: 150px;
     height: 210px;
+    margin: 0;
 }
 .pic2 {
     width: 150px;
@@ -161,31 +162,31 @@ i{
 }
 
 .secondsection {
-    width: 150px;
+    width: 151px;
     display: inline-block;
     margin-left: 10px;
 }
 
 .thirdsection {
-    width: 150px;
+    width: 151px;
     display: inline-block;
     margin-left: 10px;
 }
 
 .fourthsection {
-    width: 150px;
+    width: 151px;
     display: inline-block;
     margin-left: 10px;
 }
 
 .fifthsection {
-    width: 150px;
+    width: 151px;
     display: inline-block;
     margin-left: 10px;
 }
 
 .firstsection {
-    width: 150px;
+    width: 151px;
     display: inline-block;
     margin-left: 10px;
 }
@@ -236,7 +237,7 @@ i{
     color: #860000;
     font-size: 2rem;
     margin-left: 10px;
-    
+    font-family: Georgia;
 }
 
 .sectionTitle2{
@@ -282,6 +283,19 @@ i{
     line-height: normal;
     margin-top: 0px;
     margin-bottom: 20px;
+}
+
+.textbelow1 {
+    width: 200px;
+    margin-left: 10px;
+    background-color: #ffffff;
+}
+
+.textbelow2 {
+    width: 150px;
+    margin-left: 10px;
+    background-color: #ffffff;
+    white-space: initial;
 }
 /* ---------------------MEDIA SHIT--------------------- */
 
