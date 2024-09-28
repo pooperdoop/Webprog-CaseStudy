@@ -227,15 +227,26 @@ i{
     width: 500px;
 }
 
+.logoBodyFav{
+    display: flex   ;
+    align-items: center;
+    width: 500px;
+}
+
 .logoBodyRec {
     display: flex;
     align-items: center;
     margin-left: 5px;
 }
 
+.logoBodyFav img {
+    width: 30px;
+}
+
 .logoBody img {
     width: 30px;
 }
+
 
 .sectionTitle{
     color: #860000;
@@ -304,13 +315,13 @@ i{
 /* ---------------------MEDIA SHIT--------------------- */
 
 @media screen and (max-width: 800px){
-    #header img, #footBase, .logoBody{
+    #header img, #footBase, .logoBody, .logoBodyFav{
         transition: 0.3s;
         width: 100%;
         
     }
 
-    .search-elements, #welcome, .footerlinks, .fourthsection{
+    .search-elements, #welcome, .footerlinks, .fourthsection   {
         display: none;
     }
 
@@ -326,6 +337,10 @@ i{
         margin: 0;
         padding: 0;
         text-align: right;
+    }
+    .favdesc{
+        margin-bottom: 0;
+        max-width: 320px;
     }
 
 }
