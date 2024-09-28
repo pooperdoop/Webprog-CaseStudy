@@ -8,7 +8,7 @@ body{
     padding: 0px;
 }
 
-/* ---------------------HEADER--------------------- */
+/* ---------------------NAVBAR--------------------- */
 nav{
     background-color: #860000;
     display:flex;
@@ -79,7 +79,7 @@ span{
     width: 3rem;
     margin-right: 20px; 
 }
-
+/* ---------------------HEADER--------------------- */
 #headerMain{
     width: 100%;
     height: 35vh;
@@ -87,6 +87,7 @@ span{
     justify-content: center;
     align-items: center;
     position: relative;
+    overflow: hidden;
 }
 
 #headerfiller{
@@ -96,6 +97,9 @@ span{
      background-size: cover;
      filter: blur(10px);
      position: absolute;
+     animation-duration: 20s;
+     animation-name: transitionBG;
+     animation-iteration-count: infinite;
 }
 #header img{
     width: 750px;
@@ -104,6 +108,21 @@ span{
     top: 5px;
     border-radius: 8px; 
     background-color: rebeccapurple;
+    animation-name: transitionMain;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+#header2 img{
+    width: 750px;
+    height: 35vh;
+    position: absolute;
+    top: 5px;
+    border-radius: 8px; 
+    background-color: rebeccapurple;
+    animation-name: transitionMain2;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    opacity: 0;
 }
 /* ---------------------FOOTER--------------------- */
 
@@ -199,6 +218,11 @@ i{
     margin-left: 10px;
     transition: 0.4s;
 }
+.newsSection{
+    width: fit-content;
+}
+
+
 
 .recommendTopSection {
     max-width:  fit-content;
@@ -230,12 +254,91 @@ i{
     display: flex;
     align-items: center;
     width: 500px;
+
 }
 
 .logoBodyFav{
     display: flex   ;
     align-items: center;
     width: 500px;
+}
+
+.logoBodyNews img{
+    width: 45px;
+}
+
+.logoBodyNews {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+.newsButton{    
+    min-width: 120px;
+    padding: 0;
+    color: #860000;
+    border-radius: 18px;
+    border-color: #860000;
+    border-width: 2px;
+    height: 25px;
+    margin-left: 30px;
+}
+
+.support{
+    align-items: center;
+    text-align: center;
+    margin: 60px;
+}
+.supportTitle{
+    font-size: 1.5rem;
+    color: #860000;
+}
+.supportDesc{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.newsButton2{    
+    min-width: 120px;
+    padding: 0;
+    color: #fff;
+    border-radius: 18px;
+    border-color: #860000;
+    background-color: #860000;
+    border-width: 2px;
+    height: 25px;
+}
+
+
+.supportButton{   
+    min-width: 120px;
+    color: #fff;
+    border-radius: 18px;
+    border-color: #860000;
+    background-color: #860000;
+    border-width: 2px;
+    height: 30px;
+}
+
+.supportButton a{   
+color: #fff;
+}
+
+.supportButton2 a{   
+    color: #fff;
+    }
+.supportButton2{   
+    min-width: 90px;
+    color: #fff;
+    border-radius: 18px;
+    border-color: #860000;
+    background-color: #860000;
+    border-width: 2px;
+    height: 30px;
+}
+
+.News{
+    width: 800px;
+    margin-bottom: 30px;
 }
 
 .logoBodyRec {
@@ -321,16 +424,19 @@ i{
 .first{
     transition: 0.2s;
 }
-/* ---------------------MEDIA SHIT--------------------- */
+
+
+/* ---------------------MEDIA AND KEYFRAMES SHIT--------------------- */
 .first:hover, .secondsection:hover, .thirdsection:hover, .fourthsection:hover, .fifthsection:hover {
     transform:scale(1.5);
     z-index:5;
 }
 
 @media screen and (max-width: 800px){
-    #header img, #footBase, .logoBody, .logoBodyFav{
+    #header img, #header2 img, #footBase, .logoBody, .logoBodyFav, .logoBodyRec,.News{
         transition: 0.3s;
         width: 100%;
+        min-width: 100%
         
     }
 
@@ -355,6 +461,9 @@ i{
         margin-bottom: 0;
         max-width: 320px;
     }
+    .News{
+        max-width: 500px;
+    }
 
 }
 
@@ -363,6 +472,7 @@ i{
     .fifthsection{
         display: none;
         }
+
     }
 
     
@@ -370,6 +480,68 @@ i{
     .thirdsection{
         display: none;
         }
+
     }
 
+
+@keyframes transitionBG{
+
+    10%{
+        background-image: url(Icons/bgnheader2.png);
+    }
+    50%{
+        background-image: url(Icons/bgnheader2.png);
+    }
+
+    60%{
+        background-image: url(Icons/bgnheader.png);
+    }
+
+    100%{
+        background-image: url(Icons/bgnheader.png);
+    }
+
+}
+
+     @keyframes transitionMain{
+        0%{
+            opacity: 1;  display: block; transform: translateX(0%);
+        }
+        5%{
+        opacity: 0; display: none; transform: translateX(100%);
+        }
+
+        55%{
+            opacity: 0; display: none; transform: translateX(-100%);
+        } 
+
+        60%{
+            opacity: 1; display: block; transform: translateX(0%);
+        }
+        100%{
+            opacity: 1; display: block; 
+        }
+    } 
+
+
+@keyframes transitionMain2{
+
+    0%{ 
+        opacity: 0; display: none;  transform: translateX(-100%);
+     }
+    5%{
+       opacity: 0; display: none; transform: translateX(-100%);
+    }    
+
+     10%{
+        opacity: 1; display: block; position:relative; transform: translateX(0px);
+     }
+     50%{
+        opacity: 1; display: block;  position: relative; transform: translateX(0%);
+     }
+     55%{ opacity: 0; position: relative; display: none;transform: translateX(100%);
+     }
+     100%{ position: relative; display: none;
+     }
+}
 
