@@ -263,6 +263,27 @@ i{
     margin-right: auto;
 }
 
+.texttitle {
+    color: var(--Labels-Primary, #860000);
+    font-family: Georgia;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 7px;
+    margin-bottom: 0px  ;
+}
+
+.readers {
+    color: var(--Labels-Primary, #000);
+    font-family: Georgia;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
 /* ---------------------MEDIA SHIT--------------------- */
 
 @media screen and (max-width: 800px){
