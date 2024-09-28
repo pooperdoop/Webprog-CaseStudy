@@ -169,30 +169,35 @@ i{
     width: 151px;
     display: inline-block;
     margin-left: 10px;
+    transition: 0.4s;
 }
 
 .thirdsection {
     width: 151px;
     display: inline-block;
     margin-left: 10px;
+    transition: 0.4s;
 }
 
 .fourthsection {
     width: 151px;
     display: inline-block;
     margin-left: 10px;
+    transition: 0.4s;
 }
 
 .fifthsection {
     width: 151px;
     display: inline-block;
     margin-left: 10px;
+    transition: 0.4s;
 }
 
 .firstsection {
     width: 151px;
     display: inline-block;
     margin-left: 10px;
+    transition: 0.4s;
 }
 
 .recommendTopSection {
@@ -312,7 +317,15 @@ i{
     background-color: #ffffff;
     white-space: initial;
 }
+
+.first{
+    transition: 0.2s;
+}
 /* ---------------------MEDIA SHIT--------------------- */
+.first:hover, .secondsection:hover, .thirdsection:hover, .fourthsection:hover, .fifthsection:hover {
+    transform:scale(1.5);
+    z-index:5;
+}
 
 @media screen and (max-width: 800px){
     #header img, #footBase, .logoBody, .logoBodyFav{
