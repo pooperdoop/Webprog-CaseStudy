@@ -225,7 +225,6 @@ i{
 .logoBodyRec {
     display: flex;
     align-items: center;
-    width: auto;
     margin-left: 5px;
 }
 
@@ -287,15 +286,16 @@ i{
 /* ---------------------MEDIA SHIT--------------------- */
 
 @media screen and (max-width: 800px){
-    #header img{
+    #header img, #footBase, .logoBody{
         transition: 0.3s;
-        width: 100vw;
+        width: 100%;
         
     }
 
     .search-elements, #welcome, .footerlinks, .fourthsection, #headerfiller{
         display: none;
     }
+
 }
 
 
