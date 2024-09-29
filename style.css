@@ -157,7 +157,6 @@ i{
 
 .footerlinks li{
     list-style-type: none;
-    
 }
 
 .footerlinks a{
@@ -411,6 +410,18 @@ color: #fff;
     color: black;
     font-family: Georgia;
     font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 7px;
+    margin-bottom: 3px;
+    width: 150px;
+    height: 33px;
+}
+
+.readers2 {
+    color: transparent;
+    font-size: 0px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
