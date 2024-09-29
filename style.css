@@ -177,15 +177,24 @@ i{
 .pic1 {
     width: 150px;
     height: 210px;
-    margin: 0;
+    display: block;
 }
 .pic2 {
     width: 150px;
     height: 210px;
 }
 
+.firstsection {
+    width: 151px;
+    height: 220px;
+    display: inline-block;
+    margin-left: 10px;
+    transition: 0.4s;
+}
+
 .secondsection {
     width: 151px;
+    height: 220px;
     display: inline-block;
     margin-left: 10px;
     transition: 0.4s;
@@ -193,6 +202,7 @@ i{
 
 .thirdsection {
     width: 151px;
+    height: 220px;
     display: inline-block;
     margin-left: 10px;
     transition: 0.4s;
@@ -200,6 +210,7 @@ i{
 
 .fourthsection {
     width: 151px;
+    height: 220px;
     display: inline-block;
     margin-left: 10px;
     transition: 0.4s;
@@ -207,17 +218,12 @@ i{
 
 .fifthsection {
     width: 151px;
+    height: 220px;
     display: inline-block;
     margin-left: 10px;
     transition: 0.4s;
 }
 
-.firstsection {
-    width: 151px;
-    display: inline-block;
-    margin-left: 10px;
-    transition: 0.4s;
-}
 .newsSection{
     width: fit-content;
 }
@@ -394,31 +400,32 @@ color: #fff;
     font-weight: 400;
     line-height: normal;
     margin-top: 7px;
-    margin-bottom: 0px  ;
+    margin-bottom: auto;
+    width: 150px;
+    height: 33px;
 }
 
 .readers {
-    color: var(--Labels-Primary, #000);
+    color: black;
     font-family: Georgia;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 0px;
-    margin-bottom: 20px;
+    margin-top: auto;
+
 }
 
 .textbelow1 {
-    width: 200px;
+    width: 150px;
     margin-left: 10px;
-    background-color: #ffffff;
+    background-color: transparent;
 }
 
 .textbelow2 {
     width: 150px;
     margin-left: 10px;
-    background-color: #ffffff;
-    white-space: initial;
+    background-color: transparent;
 }
 
 .first{
