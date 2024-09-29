@@ -186,7 +186,7 @@ i{
 
 .firstsection {
     width: 151px;
-    height: 220px;
+    height: 380px;
     display: inline-block;
     margin-left: 10px;
     transition: 0.4s;
@@ -194,7 +194,7 @@ i{
 
 .secondsection {
     width: 151px;
-    height: 220px;
+    height: 380px;
     display: inline-block;
     margin-left: 10px;
     transition: 0.4s;
@@ -202,7 +202,7 @@ i{
 
 .thirdsection {
     width: 151px;
-    height: 220px;
+    height: 380px;
     display: inline-block;
     margin-left: 10px;
     transition: 0.4s;
@@ -210,7 +210,7 @@ i{
 
 .fourthsection {
     width: 151px;
-    height: 220px;
+    height: 380px;
     display: inline-block;
     margin-left: 10px;
     transition: 0.4s;
@@ -218,7 +218,7 @@ i{
 
 .fifthsection {
     width: 151px;
-    height: 220px;
+    height: 380px;
     display: inline-block;
     margin-left: 10px;
     transition: 0.4s;
@@ -393,14 +393,14 @@ color: #fff;
 }
 
 .texttitle {
-    color: var(--Labels-Primary, #860000);
+    color: red;
     font-family: Georgia;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin-top: 7px;
-    margin-bottom: auto;
+    margin-bottom: 3px;
     width: 150px;
     height: 33px;
 }
@@ -412,8 +412,10 @@ color: #fff;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: auto;
-
+    margin-top: 7px;
+    margin-bottom: 3px;
+    width: 150px;
+    height: 33px;
 }
 
 .textbelow1 {
