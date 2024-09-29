@@ -246,8 +246,9 @@ i{
 }
 .recommendDesc{
     padding: 0;
-    margin: 0;
+    margin-top: 10px;
     text-align: justify;
+    font-size: 1.1rem;
 }
 
 .box {
@@ -267,6 +268,7 @@ i{
     display: flex   ;
     align-items: center;
     width: 500px;
+    margin-bottom: 10px;
 }
 
 .logoBodyNews img{
@@ -387,7 +389,7 @@ color: #fff;
 }
 
 .boxLastTop {
-    max-width: fit-content; 
+    max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
 }
@@ -453,6 +455,10 @@ color: #fff;
         display: none;
     }
 
+    .sectionTitle{
+        font-size: 1.5rem;
+    }
+
     .mainlogo2{
         display: block;
         width: 100px;
@@ -469,9 +475,6 @@ color: #fff;
     .favdesc{
         margin-bottom: 0;
         max-width: 320px;
-    }
-    .News{
-        max-width: 500px;
     }
 
 }
@@ -491,6 +494,13 @@ color: #fff;
         }
 
     }
+
+    @media screen and (max-width: 400px){
+        .secondsection{
+            display: none;
+            }
+    
+        }
 
 
 @keyframes transitionBG{
