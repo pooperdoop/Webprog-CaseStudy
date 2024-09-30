@@ -152,7 +152,7 @@ i{
     margin-bottom: 15px;
     padding: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between ;
 }
 
 .footerlinks li{
@@ -176,7 +176,9 @@ i{
 .pic1 {
     width: 150px;
     height: 210px;
-    display: block;
+    vertical-align: top;
+    margin-top: 10px;
+    object-position: top;
 }
 .pic2 {
     width: 150px;
@@ -185,7 +187,7 @@ i{
 
 .firstsection {
     width: 151px;
-    height: 380px;
+    height: 370px;
     display: inline-block;
     margin-left: 10px;
     transition: 0.4s;
@@ -193,7 +195,7 @@ i{
 
 .secondsection {
     width: 151px;
-    height: 380px;
+    height: 370px;
     display: inline-block;
     margin-left: 10px;
     transition: 0.4s;
@@ -201,7 +203,7 @@ i{
 
 .thirdsection {
     width: 151px;
-    height: 380px;
+    height: 370px;
     display: inline-block;
     margin-left: 10px;
     transition: 0.4s;
@@ -209,7 +211,7 @@ i{
 
 .fourthsection {
     width: 151px;
-    height: 380px;
+    height: 370px;
     display: inline-block;
     margin-left: 10px;
     transition: 0.4s;
@@ -217,7 +219,7 @@ i{
 
 .fifthsection {
     width: 151px;
-    height: 380px;
+    height: 370px;
     display: inline-block;
     margin-left: 10px;
     transition: 0.4s;
@@ -400,11 +402,20 @@ color: #fff;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    margin-top: 7px;
-    margin-bottom: 3px;
+    margin: 0px;
     width: 150px;
-    height: 33px;
+    height: 20px;
+}
+
+.texttitle2 {
+    color: red;
+    font-family: Georgia;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0px;
+    width: 150px;
+    height: 20px;
 }
 
 .readers {
@@ -413,41 +424,39 @@ color: #fff;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    margin-top: 3px;
-    margin-bottom: 3px;
+    margin-top: 0px;
     width: 150px;
-    height: 33px;
+    height: 20px;
 }
 
 .readers2 {
-    color: transparent;
-    font-size: 0px;
+    color: black;
+    font-family: Georgia;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    margin-top: 7px;
-    margin-bottom: 3px;
+    margin-top: 0px;
     width: 150px;
-    height: 33px;
+    height: 20px;
 }
 
-.textbelow1 {
+.textbelow {
     width: 150px;
-    margin-left: 10px;
+    margin-left: 5px;
     background-color: transparent;
+    text-align: start;
 }
 
 .textbelow2 {
     width: 150px;
-    margin-left: 10px;
+    margin-left: 5px;
     background-color: transparent;
+    text-align: start;
 }
 
 .first{
     transition: 0.2s;
 }
-
 
 /* ---------------------MEDIA AND KEYFRAMES SHIT--------------------- */
 .first:hover, .secondsection:hover, .thirdsection:hover, .fourthsection:hover, .fifthsection:hover {
