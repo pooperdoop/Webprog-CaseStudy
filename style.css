@@ -61,15 +61,15 @@ display: flex;
 .search-elements input{
     border-radius: 15px;
     border-width: 1px;
-    height: 25px;
+    height: 30px;
 }
 .search-elements button{
-    border-radius: 18px;
+    border-radius: 19px;
     background-color: #860000;
     border-color: aliceblue;
     border-width: 1px;
     color: aliceblue;
-    height: 25px;
+    height: 30px;
 }
 span{
     color:  aliceblue;
