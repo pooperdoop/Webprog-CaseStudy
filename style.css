@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family:'Times New Roman', Times, serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 body{
     background-color: white;
@@ -251,6 +251,7 @@ i{
     padding: 0;
     margin-top: 10px;
     text-align: justify;
+    width: 600px;
 }
 
 .box {
@@ -370,7 +371,6 @@ color: #fff;
     color: #860000;
     font-size: 2rem;
     margin-left: 10px;
-    font-family: Georgia;
 }
 
 .sectionTitle2{
@@ -398,7 +398,6 @@ color: #fff;
 
 .texttitle {
     color: red;
-    font-family: Georgia;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -409,7 +408,6 @@ color: #fff;
 
 .texttitle2 {
     color: red;
-    font-family: Georgia;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -420,7 +418,6 @@ color: #fff;
 
 .readers {
     color: black;
-    font-family: Georgia;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -431,13 +428,13 @@ color: #fff;
 
 .readers2 {
     color: black;
-    font-family: Georgia;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     margin-top: 0px;
     width: 150px;
     height: 20px;
+    transform: translateY(17px);
 }
 
 .textbelow {
@@ -518,7 +515,11 @@ color: #fff;
     .boxLastTop{
         max-width: 80vw;
     }
+    .recommendDesc{
 
+        width: 100%;
+        min-width: 100%
+    }
 
     }
 
