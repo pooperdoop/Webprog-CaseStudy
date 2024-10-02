@@ -60,7 +60,7 @@ display: flex;
     padding: 1vw;
 }
 
-.navbar a:hover{
+.Links a:hover ,.browseDrop a:hover{
     background-color: rgb(202, 171, 171);
 }
 
@@ -81,13 +81,27 @@ display: flex;
     color: aliceblue;
     height: 30px;
 }
-span{
+.welcome{
     color:  aliceblue;
 }
+
+.welcome2{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .profile img{
     width: 3rem;
     margin-right: 20px; 
+}
+
+.profile2 img{
+    width: 5rem;
+}
+
+.profile2 {
+    display: flex;
 }
 
 .browseDrop{
@@ -98,15 +112,59 @@ span{
 }
 
 .browseHover:hover{
+    
     .browseDrop{
         display: block;
     }
+    
 }
 
 .browseDrop a:hover{
     color: #fff;
 }
+.burger{
+    display: none;
+    color:  aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.burger a{
+    color: #ffffff;
+}
 
+.sideBar{
+    min-height: 200vh;
+    width: 30vw;
+    position: absolute;
+    background-color: #860000;
+    overflow: hidden;
+    z-index: -1;
+    right: 0;
+    display: none;
+}
+
+.burger:hover{
+
+    .sideBar{
+        display: block;
+    }
+}
+
+.browseSubDiv{
+    text-decoration: none;
+    padding: 20px;
+}
+
+.browseSub{
+    text-decoration: none;
+}
+.Links2 ul li{
+    list-style: none;
+    padding-top: 50px;
+}
+.Links2 li a{
+    text-decoration: none;
+}
 
 /* ---------------------HEADER--------------------- */
 #headerMain{
@@ -486,7 +544,7 @@ color: #fff;
 }
 
 .first{
-    transition: 0.2s;
+    transition: 0.4s;
 }
 
 /* ---------------------MEDIA AND KEYFRAMES SHIT--------------------- */
@@ -503,8 +561,11 @@ color: #fff;
         
     }
 
-    .search-elements, #welcome, .footerlinks, .fourthsection   {
+    .search-elements, .welcome, .footerlinks, .fourthsection, .Links, .profile {
         display: none;
+    }
+    .burger{
+        display: block;
     }
 
     .sectionTitle{
@@ -562,7 +623,9 @@ color: #fff;
     .thirdsection{
         display: none;
         }
-
+    .sideBar{
+        min-width: 40vw ;
+    }
     }
 
     @media screen and (max-width: 400px){
