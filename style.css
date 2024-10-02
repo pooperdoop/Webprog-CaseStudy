@@ -43,9 +43,19 @@ display: flex;
     list-style-type: none;
 }
 
+.browseDrop a{
+    color: #860000;
+}
+
 .Links li a{
     text-decoration: none;
-    color: aliceblue;
+    display: block;
+    padding: 1vw;
+}
+
+.headerList{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
     display: block;
     padding: 1vw;
 }
@@ -79,6 +89,25 @@ span{
     width: 3rem;
     margin-right: 20px; 
 }
+
+.browseDrop{
+    background-color: #ffffff;
+    position: absolute;
+    display: none;
+    
+}
+
+.browseHover:hover{
+    .browseDrop{
+        display: block;
+    }
+}
+
+.browseDrop a:hover{
+    color: #fff;
+}
+
+
 /* ---------------------HEADER--------------------- */
 #headerMain{
     width: 100%;
@@ -152,7 +181,9 @@ i{
     margin-bottom: 15px;
     padding: 0;
     display: flex;
-    justify-content: space-between ;
+    justify-content:space-evenly ;
+    transform: translateX(-23px);
+    
 }
 
 .footerlinks li{
