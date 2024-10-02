@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'montserrat', sans-serif;
 }
 body{
     background-color: white;
@@ -187,39 +187,35 @@ i{
 
 .firstsection {
     width: 151px;
-    height: 370px;
+    height: 300px;
     display: inline-block;
     margin-left: 10px;
     transition: 0.4s;
 }
 
 .secondsection {
-    width: 151px;
-    height: 370px;
+    height: 300px;
     display: inline-block;
     margin-left: 10px;
     transition: 0.4s;
 }
 
 .thirdsection {
-    width: 151px;
-    height: 370px;
+    height: 300px;
     display: inline-block;
     margin-left: 10px;
     transition: 0.4s;
 }
 
 .fourthsection {
-    width: 151px;
-    height: 370px;
+    height: 300px;
     display: inline-block;
     margin-left: 10px;
     transition: 0.4s;
 }
 
 .fifthsection {
-    width: 151px;
-    height: 370px;
+    height: 300px;
     display: inline-block;
     margin-left: 10px;
     transition: 0.4s;
@@ -379,9 +375,11 @@ color: #fff;
     margin: 0;
 }
 .subTitle{
-    color: #4e4e4e;
-    font-size: 1.2rem;
+    color: #2a2a2a;
+    font-size: 1.1rem;
     margin: 0;
+    font-style: italic;
+    font-weight: 300;
 }
 
 .boxLastBot {
@@ -424,23 +422,22 @@ color: #fff;
     color: #2a2a2a;
     font-size: 15px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     margin-top: 0px;
     width: 150px;
     height: 20px;
-    font-weight: lighter;
 }
+
 
 .readers2 {
     color: #2a2a2a;
     font-size: 15px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     margin-top: 0px;
     width: 150px;
     height: 20px;
     transform: translateY(17px);
-    font-weight: lighter;
 }
 
 .textbelow {
@@ -609,4 +606,6 @@ color: #fff;
      100%{ position: relative; display: none;
      }
 }
+
+
 
