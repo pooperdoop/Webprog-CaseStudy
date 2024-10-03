@@ -55,13 +55,13 @@ display: flex;
 
 .headerList{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #fbfbfb;
     display: block;
     padding: 1vw;
 }
 
 .Links a:hover ,.browseDrop a:hover, .Links2 li:hover{
-    background-color: rgb(202, 171, 171);
+    background-color: #caabab;
 }
 
 .search-elements{
@@ -76,13 +76,13 @@ display: flex;
 .search-elements button{
     border-radius: 19px;
     background-color: #860000;
-    border-color: aliceblue;
+    border-color: #fbfbfb;
     border-width: 1px;
-    color: aliceblue;
+    color: #fbfbfb;
     height: 30px;
 }
 .welcome{
-    color:  aliceblue;
+    color:  #fbfbfb;
 }
 
 .welcome2{
@@ -105,7 +105,7 @@ display: flex;
 }
 
 .browseDrop{
-    background-color: #ffffff;
+    background-color: #fbfbfb;
     position: absolute;
     display: none;
     
@@ -120,16 +120,16 @@ display: flex;
 }
 
 .browseDrop a:hover{
-    color: #fff;
+    color: #fbfbfb;
 }
 .burger{
     display: none;
-    color:  aliceblue;
+    color:  #fbfbfb;
     margin-bottom: 10px;
     text-decoration: none;
 }
 .burger a{
-    color: #ffffff;
+    color: #fbfbfb;
 }
 
 .sideBar{
@@ -209,7 +209,7 @@ display: flex;
     position: relative;
     top: 5px;
     border-radius: 8px; 
-    background-color: rebeccapurple;
+    background-color: #663399;
     animation-name: transitionMain;
     animation-duration: 20s;
     animation-iteration-count: infinite;
@@ -247,7 +247,7 @@ i{
 
 .footericons{
     text-decoration: none;
-    color: white;
+    color: #fbfbfb;
 }
 
 .footerlinks ul{
@@ -266,14 +266,14 @@ i{
 .footerlinks a{
 
     text-decoration: none;
-    color: aliceblue;
+    color: #fbfbfb;
     display: block;
     padding: auto;
 }
 
 .footertext{
     font-size: 10px;
-    color: #fff;
+    color: #fbfbfb;
 }
 
 /* ---------------------BODY    --------------------- */
@@ -346,7 +346,7 @@ i{
 .recommendText{
     width: 490px;
     margin-left: 50px;
-    background-color: #ffffff;
+    background-color: #fbfbfb;
 }
 .recommendDesc{
     padding: 0;
@@ -412,7 +412,7 @@ i{
 .newsButton2{    
     min-width: 120px;
     padding: 0;
-    color: #fff;
+    color: #fbfbfb;
     border-radius: 18px;
     border-color: #860000;
     background-color: #860000;
@@ -423,7 +423,7 @@ i{
 
 .supportButton{   
     min-width: 120px;
-    color: #fff;
+    color: #fbfbfb;
     border-radius: 18px;
     border-color: #860000;
     background-color: #860000;
@@ -432,15 +432,15 @@ i{
 }
 
 .supportButton a{   
-color: #fff;
+color: #fbfbfb;
 }
 
 .supportButton2 a{   
-    color: #fff;
+    color: #fbfbfb;
     }
 .supportButton2{   
     min-width: 90px;
-    color: #fff;
+    color: #fbfbfb;
     border-radius: 18px;
     border-color: #860000;
     background-color: #860000;
@@ -500,7 +500,7 @@ color: #fff;
 }
 
 .texttitle {
-    color: maroon;
+    color: #860000;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
