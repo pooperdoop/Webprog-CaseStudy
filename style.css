@@ -48,7 +48,7 @@ display: flex;
 }
 
 .Links li a{
-    text-decoration: none;
+    text-decoration:none;
     display: block;
     padding: 1vw;
 }
@@ -60,7 +60,7 @@ display: flex;
     padding: 1vw;
 }
 
-.Links a:hover ,.browseDrop a:hover{
+.Links a:hover ,.browseDrop a:hover, .Links2 li:hover{
     background-color: rgb(202, 171, 171);
 }
 
@@ -143,6 +143,11 @@ display: flex;
     display: none;
 }
 
+.sideBarList{
+    display: block;
+    margin:auto;
+}
+
 .burger:hover{
 
     .sideBar{
@@ -158,12 +163,22 @@ display: flex;
 .browseSub{
     text-decoration: none;
 }
+
 .Links2 ul li{
     list-style: none;
-    padding-top: 50px;
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left:20px ;
+}
+.Links2 ul{
+    margin-top: 50px;
+    padding: 0px;
 }
 .Links2 li a{
     text-decoration: none;
+    display: block;
+    min-height: auto;
 }
 
 /* ---------------------HEADER--------------------- */
